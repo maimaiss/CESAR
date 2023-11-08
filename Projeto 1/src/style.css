@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(22, 22, 22);
+    color: white
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+table a {
+    color: antiquewhite;
+}
+
+table,td,th {
+    border-collapse: collapse;
+    border: 1px solid gray;
+    min-width: 200px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color:  rgb(22, 22, 22);;
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Agenda de Contatos</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Minha agenda de contatos - Versão <span id="versao"></span></h1>
+        </header>
+
+
+        <hr />
+        <h3>Adicionar novo contato</h3>
+        <form>
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite seu nome" />
+            </div>
+
+            <div class="input-group">
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" name="telefone" type="number" placeholder="Digite seu número" />
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="Digite seu email" />
+            </div>
+
+            <div class="input-group">
+                <label>Interesses:</label>
+                <textarea name="interesses" rows="2" cols="25"
+                    placeholder="Digite os interesses separado por vírgula"></textarea>
+            </div>
+        
+
+        
+            <button type="submit">Cadastrar</button>
+        </form>
+
+
+        <hr />
+        <h3>Meus Contatos</h3>
+
+        <table id="tabela-contatos">
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Email</th>
+                <th>Interesses</th>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>
