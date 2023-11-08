@@ -2,7 +2,8 @@
 
 Meu repositório pessoal de projetos de Front-End relacionados ao curso da CESAR! Este é o meu espaço para compartilhar e documentar o meu progresso e os projetos que desenvolvi ao longo do curso.
 
-Para a utilização dos arquivos será necessária a instalação do Node e do VS Code <br>
+
+_Para a utilização dos arquivos será necessária a instalação do Node e do VS Code <br>_
 ### Instalando o VS Code:
 1. Acesse o site oficial do [Visual Studio Code](https://code.visualstudio.com/)
 2. Clique no botão "Download for Windows" (para Windows) ou "Download for macOS" (para macOS), dependendo do seu sistema operacional.
